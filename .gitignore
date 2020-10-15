@@ -15,4 +15,8 @@
 # vendor/
 
 # Project
-.idea
+.idea/
+vscode/
+go.sum
+*.db
+blockchain
