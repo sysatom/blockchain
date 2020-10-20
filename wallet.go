@@ -12,7 +12,7 @@ import (
 
 const addressChecksumLen = 4
 const version = byte(0x00)
-const walletFile = "wallet.dat"
+const walletFile = "wallet_%s.dat"
 
 type Wallet struct {
 	PrivateKey ecdsa.PrivateKey
